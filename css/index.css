@@ -1,0 +1,296 @@
+body,html
+{
+	overflow:hidden;
+	height:100%;
+	font-family:verdana;
+}
+
+ .top_nav
+ {
+		display:none;
+		margin-top:100px;
+		height:50px;
+		font-size:20px;
+		color:white;
+		text-align:center;
+ }
+#Home_background
+{
+	background:black;
+	z-index:-1;
+	height: 100%;
+    position:fixed;
+ 
+}
+
+#Home_background img
+{
+	width:100%;
+	height:100%;
+}
+
+.col-xs-12,.col-md-5
+{
+ 
+padding:0;
+}
+ .arrow_div
+	{
+			display:none;
+	}
+.content_div
+{
+                display:none;
+                padding:30px;
+                height:100%;
+				background:rgba(0,0,0,0.8);
+               /* background:rgba(77,77,77,0.8);*/
+				color:white;
+}
+
+.content_head
+{
+                border-bottom:2px solid rgb(0, 128, 128);
+				display:none;
+				font-size:20px;
+				color:rgb(0, 128, 128);
+}
+
+.content_body
+{
+				height:100%;
+				margin-top:100px;
+				padding:0px 100px 0px 100px;	
+				letter-spacing:2px;
+				display:none;
+}
+
+.transp-bg
+{
+				height: 100%;
+				background-color:rgba(0,0,0,0.6);
+				position:fixed;
+				top:0;
+				left:0;
+}
+ 
+ 
+
+#home_text
+{
+color:white;
+}
+ 
+ 
+.nave p
+{
+cursor:pointer;
+display:none;
+}
+.nave p:hover
+{
+
+}
+
+.home_text_right span
+{
+	padding:10px;
+}
+ 
+.home_text_right span:hover
+{
+ font-size:23px;	
+}	
+ 
+.home_text_right
+{
+padding-top:75px;
+color:white;
+font-size:20px;
+line-height:70px;
+padding-left:40px;
+ height:100%;
+}
+.home_text_left
+{
+overflow:hidden;
+color: white;
+padding-top:200px;
+}
+.head_center
+{
+padding:10px;
+text-align:center;
+display:none;
+line-height:20px;
+}
+
+.head_center span
+{
+ 
+      color: seablue;
+}
+ 
+.wrap_about
+{
+height:100%;
+}
+ 
+.about
+{
+
+height:100%;
+display:none;
+}
+.about_body
+{
+	font-size:16px;
+}
+.education
+{
+	height:100%;
+display:none;
+}
+
+.skills
+{
+height:100%;
+display:none;
+
+}
+ 
+
+
+.skills_tech {
+                perspective: 1000px;
+                height:100px;
+                color:#d3d9d3;
+}
+ 
+              
+.skills_tech:hover {
+                                transform: rotateY(180deg);
+                }
+ 
+ 
+
+.skills_tech {
+                transition: 0.6s;
+                transform-style: preserve-3d;
+                margin-bottom:30px;
+                position: relative;
+}
+ 
+
+.skill_body, .skill_rating {
+                backface-visibility: hidden;
+                text-align:center;
+                position: absolute;
+                top: 0;
+                left: 0;
+                font-size:20px;
+                height:100px;
+                vertical-align:middle;
+                padding-top:40px;
+}
+ 
+
+.skill_body{
+                z-index: 2;
+                
+                transform: rotateY(0deg);
+}
+ 
+
+.skill_rating {
+                transform: rotateY(180deg);
+}
+
+ 
+.projects
+{
+height:100%;
+display:none;
+
+
+}
+ 
+.wrap_projects
+{
+         
+               
+               
+}
+#myCarousel
+{
+		height:200px;
+}
+.projects_wrapper
+{
+                box-shadow:1px 2px 12px black;
+                border-radius:5px;
+                height:300px;
+ 
+                margin-top:15px;
+                margin-bottom:15px;
+}
+
+.project_head
+{
+                height:40%;
+                font-size:20px;
+                padding-bottom:20px;
+               
+}
+.reach
+{
+			height:100%;
+			display:none;
+}
+.reach_body div
+{
+	padding:15px;
+}
+.social {
+	
+}
+@media only screen and (max-width: 991px) {
+	body
+	{
+			overflow:auto;
+	}
+	
+	.top_nav
+	{	
+		display:block;
+	}
+	.home_text_right
+	{
+		height:auto;
+		line-height:40px;
+		display:none;
+		margin-top:0px;
+		text-align:center;
+		padding-top:0;
+		padding-left:0;
+		background-color:rgb(0, 128, 128);
+		color:white;
+	}
+	#myCarousel
+{
+		height:330px;
+}
+	.arrow_div
+	{
+			display:block;
+	}
+	.content_body
+	{
+				
+				margin-top:100px;
+				padding:0px 10px 0px 10px;	
+				letter-spacing:2px;
+				display:none;
+	}
+}
+
